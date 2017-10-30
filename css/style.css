@@ -1,0 +1,163 @@
+.hero {
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #7300EC;
+  background: url("/../../assets/white-gradient.png"), linear-gradient(120deg, #FF0049, #FF7850, #FFC051);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+.hero-logo {
+  text-align: center;
+  color: white;
+  margin: 20px 0 60px;
+}
+
+.hero-logo-icon {
+  width: 500px;
+  margin-top: 80px;
+}
+
+.hero-subscribe {
+  padding: 20px 40px 40px;
+  margin-bottom: 26px;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 30px 75px -15px rgba(255, 100, 79, .3), 0 25px 40px -20px rgba(0,0,0,.1);
+  border-radius: 4px;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+
+.footer {
+  background-color: #7300EC;
+  background-image: linear-gradient(120deg, #FF0049, #FF7850, #FFC051);
+  margin-top: 160px;
+  padding: 60px 0;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.divider {
+  width: 100%;
+  margin: 220px 0 60px;
+}
+
+.featured-box {
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 30px 75px -15px rgba(255, 100, 79, .3), 0 25px 40px -20px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+.mc-field-group {
+
+}
+
+.about {
+  background: #f5f5f5;
+  padding: 60px 0;
+  margin: 60px 0
+}
+
+/* Form */
+
+.mc-field-group {
+  margin: 16px 0;
+}
+
+.mc-field-group input {
+  border-style: none;
+  border: 1px solid #9F9F9F;
+  border-radius: 4px;
+  padding: 4px 12px;
+  width: 100%;
+}
+
+.mc-field-group input:focus {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  border: 3px solid #ff4a4e;
+}
+
+#mc_embed_signup input.btn-primary {
+  border-style: none;
+  background-color: #ff4a4e;
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  width: 100%;
+  height: 62px;
+  font-size: 1.15rem;
+}
+
+.btn-secondary input {
+  border-style: none;
+  background-color: white;
+  color: #ff4a4e;
+  border-radius: 4px;
+  padding: 8px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  width: 100%;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  position: absolute;
+  background-color: transparent;
+  margin: -4px 0 1em 0;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #FB675B;
+}
+
+footer .mc-field-group input {
+  background-color: red;
+}
+
+input {
+  outline: none;
+}
+
+/* Typography */
+
+* {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 2.125rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.8;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
