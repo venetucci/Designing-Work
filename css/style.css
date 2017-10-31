@@ -56,6 +56,39 @@
 .about-avatar {
   position: relative;
   margin-top: 26px;
+  /*box-shadow: 0 0px 75px -20px rgba(79, 63, 53, .5), 0 25px 40px -20px rgba(0,0,0,.2);*/
+}
+
+.link span {
+  color: #ff4a4e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.link span:after {
+  content: '\2192';
+  color: #FB675B;
+  opacity: 0;
+  position: absolute;
+  right: -15px;
+  top: 0;
+  transition: 0.5s;
+}
+
+.link:hover span {
+  padding-right: 20px;
+}
+
+.link:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .footer {
@@ -72,7 +105,7 @@
 /* Form */
 
 .mc-field-group {
-  margin: 16px 0;
+  margin: 16px 0 26px;
 }
 
 #mc_embed_signup .mc-field-group {
@@ -109,11 +142,12 @@
   background-color: #ff4a4e;
   color: white;
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1.5px;
   width: 100%;
   height: 62px;
   font-size: 1.15rem;
+  /*margin-top: 10px;*/
 }
 
 .btn-secondary input {
@@ -122,7 +156,7 @@
   color: #ff4a4e;
   border-radius: 4px;
   padding: 8px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1.5px;
   width: 100%;
 }
@@ -157,34 +191,34 @@ input {
 h1 {
   font-size: 1.75rem;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.8;
   letter-spacing: 1.5px;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.8;
 
 }
 
 h3 {
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   margin-top: 0;
 }
 
 h4 {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
 }
 
 a {
   color: #ff4a4e;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   border-bottom: 3px solid #ff4a4e;
 }
